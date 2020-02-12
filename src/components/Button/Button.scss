@@ -1,0 +1,32 @@
+.button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+
+    &--default {
+        background-color: grey;
+
+        &:hover {
+            background-color: darken(grey, 10);
+        }
+    }
+
+    &--primary {
+        background-color: darkblue;
+
+        &:hover {
+            background-color: darken(darkblue, 10);
+        }
+    }
+
+    &--secondary {
+        background-color: darkred;
+
+        &:hover {
+            background-color: darken(darkred, 10);
+        }
+    }
+}
